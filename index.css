@@ -1,0 +1,100 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: arial, sans-serif;
+}
+.header{
+  position: relative;
+  display: flex;
+}
+.header-left{
+  display: flex;
+  flex-direction: column;
+  color: rgb(156, 154, 154);
+}
+.header-left span{
+  font-size: 2rem;
+}
+.header-right{
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+img{
+  width: 30px;
+  height: 30px;
+  margin: 4px;
+}
+.Acc-details{
+  display: flex;
+  flex-direction: column;
+  color: rgb(156, 154, 154); 
+}
+span{
+  font-weight: bold;
+  color: black;
+}
+.date{
+  display: flex;
+  flex-direction: column;
+  color: rgb(156, 154, 154);
+}
+.status{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 40px;
+  padding: 5px;
+}
+.status.verified{
+  background-color: rgb(204, 234, 204);
+  color: green;
+}
+.status.rejected{
+  background-color: rgb(242, 217, 217);
+  color: rgb(174, 51, 51);
+}
+.status.pending{
+  background-color: rgba(223, 224, 226, 0.862);
+  color: rgb(156, 149, 149);
+}
+.amount-verified{
+  color:green;
+  font-weight: bold;
+}
+.amount{
+  font-weight: bold;
+}
+thead{
+  color: rgb(156, 154, 154);
+}
+tr{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+td, th{
+  width: 200px;
+  display: flex;
+  padding: 8px;
+}
+tr:nth-child(odd) {
+  background-color: #e5e0e058;
+}
+th{
+  background-color: white;
+}
